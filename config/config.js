@@ -4,5 +4,11 @@ export default {
     routes:[{
         path: '/',
         component: './helloworld',
-    }]
+    }],
+    plugins: [
+        ['umi-plugin-react',{
+            antd: true,
+        }],
+    ],
+
 }
